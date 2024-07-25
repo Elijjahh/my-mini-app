@@ -3,6 +3,7 @@
 <template>
   <section>
     <h1>hello from home page</h1>
+    <Button label="Submit" />
   </section>
 </template>
 
