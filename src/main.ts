@@ -9,6 +9,8 @@ import router from './router';
 import PrimeVue from 'primevue/config';
 import Noir from './theme';
 
+import { VueTelegramPlugin } from 'vue-tg';
+
 const app = createApp(App);
 
 app.use(createPinia());
@@ -18,5 +20,6 @@ app.use(PrimeVue, {
     preset: Noir,
   },
 });
+app.use(VueTelegramPlugin);
 
 app.mount('#app');
